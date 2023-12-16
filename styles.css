@@ -1,0 +1,43 @@
+html {
+    background-color: #f3f3f3;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #f3f3f3; */
+}
+
+.container {
+    text-align: center;
+    padding: 40px;
+    /* Increased padding */
+}
+
+h1 {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 3em;
+    margin-bottom: 30px;
+    font-family: 'Kanit', sans-serif;
+    background-color: #fdb9b6;
+    transform: skewX(-10deg); /* Incline les côtés vers la droite */
+}
+
+/* Media query pour les appareils mobiles */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 2em; /* Taille encore plus petite pour les mobiles */
+    }
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
